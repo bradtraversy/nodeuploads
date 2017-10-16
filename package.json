@@ -1,0 +1,16 @@
+{
+  "name": "nodeuploads",
+  "version": "1.0.0",
+  "description": "Example for image uploading in Node",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "multer": "^1.3.0"
+  }
+}
