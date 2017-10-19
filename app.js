@@ -3,7 +3,7 @@ const multer = require('multer');
 const ejs = require('ejs');
 const path = require('path');
 
-// Set Storage Engine 
+// Set Storage Engine
 /*const storage = multer.diskStorage({
   destination: './public/uploads/',
   filename: function(req, file, cb){
@@ -14,7 +14,7 @@ const path = require('path');
 
 //To Upload directly to local or remote mongodb server
 const storage = require('multer-gridfs-storage')({
-   url: 'mongodb://127.0.0.1:27017/Videos'
+   url: 'mongodb://127.0.0.1:27017/Images'
 });
 
 // Init Upload
